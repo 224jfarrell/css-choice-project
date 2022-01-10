@@ -1,26 +1,31 @@
 body {
   background-color: #d9d9d9;
+  max-width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
 .header {
   position: sticky;
-  background-color: #93c47d;
-  font-family: Georgia, "Times New Roman", serif;
-  text-decoration: italic;
   width: 100%;
   height: 12vh;
+  background-color: #93c47d;
+  border: 2px solid black;
+  font-family: Georgia, "Times New Roman", serif;
+  text-decoration: italic;
 }
 
 .button {
   position: inherit;
   display: inline-block;
   margin-top: 2vh;
-  margin-left: 1%;
-  background-color: #cfe2f3;
-  font-family: "Noto Sans", Arial, sans-serif;
-  text-decoration: italic;
+  margin-left: 0.9%;
   width: 32%;
   height: 8vh;
+  background-color: #cfe2f3;
+  border: 2px solid black;
+  font-family: "Noto Sans", Arial, sans-serif;
+  text-decoration: italic;
 }
 
 .button.selected {
@@ -28,9 +33,43 @@ body {
   display: inline-block;
   margin-top: 2vh;
   margin-left: 0.7%;
-  background-color: #9fc5e8;
-  font-family: "Noto Sans", Arial, sans-serif;
-  text-decoration: italic;
   width: 32%;
   height: 8vh;
+  background-color: #9fc5e8;
+  border: 2px solid black;
+  font-family: "Noto Sans", Arial, sans-serif;
+  text-decoration: italic;
+}
+
+.textbox {
+  display: inline-block;
+  margin: 12vh 0 0 49vh;
+  width: 25%;
+  height: 40vh;
+  background-color: #93c47d;
+  border: 2px solid black;
+  font-family: "Noto Sans", Arial, sans-serif;
+}
+
+.image {
+  display: inline-block;
+  margin: 12vh 49vh 0 0;
+  width: 25%;
+  height: 40vh;
+  border: 2px solid black;
+}
+
+.background-fade {
+  left: 0px;
+  background: linear-gradient(to bottom, #d9d9d9 0%, #000 100%);
+  width: 2664px;
+  height: 15vh;
+  overflow: hidden;
+}
+
+.footer {
+  width: 2664px;
+  height: 12vh;
+  background-color: #000;
+  padding-bottom: 300px;
 }
