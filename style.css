@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
 body {
   background-color: #d9d9d9;
   max-width: 100%;
@@ -16,30 +17,64 @@ body {
   text-decoration: italic;
 }
 
-.button {
+.button.home {
   position: inherit;
-  display: inline-block;
   margin-top: 2vh;
   margin-left: 0.9%;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 9vh;
   width: 32%;
   height: 8vh;
   background-color: #cfe2f3;
   border: 2px solid black;
   font-family: "Noto Sans", Arial, sans-serif;
-  text-decoration: italic;
+  text-align: center;
 }
 
-.button.selected {
+.button.selected.home {
   position: inherit;
-  display: inline-block;
   margin-top: 2vh;
   margin-left: 0.7%;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 9vh;
   width: 32%;
   height: 8vh;
   background-color: #9fc5e8;
   border: 2px solid black;
   font-family: "Noto Sans", Arial, sans-serif;
-  text-decoration: italic;
+  text-align: center;
+}
+
+.button {
+  position: inherit;
+  margin-top: 2vh;
+  margin-left: 0.9%;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 3vh;
+  width: 32%;
+  height: 8vh;
+  background-color: #cfe2f3;
+  border: 2px solid black;
+  font-family: "Noto Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.button.selected {
+  position: inherit;
+  margin-top: 2vh;
+  margin-left: 0.7%;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 3vh;
+  width: 32%;
+  height: 8vh;
+  background-color: #9fc5e8;
+  border: 2px solid black;
+  font-family: "Noto Sans", Arial, sans-serif;
+  text-align: center;
 }
 
 .textbox {
@@ -63,6 +98,7 @@ body {
 .background-fade {
   left: 0px;
   margin-top: 105px;
+  vertical-align: bottom;
   background: linear-gradient(to bottom, #d9d9d9 0%, #d9d9d9 50%, #292929 100%);
   width: 2664px;
   height: 5vh;
@@ -73,6 +109,8 @@ body {
   bottom: 0%;
   padding-bottom: 100px;
   background: linear-gradient(to bottom, #292929 0%, #000 100%);
+  color: white;
+  padding-left: 6.25%;
   width: 2664px;
   height: 7vh;
 }
