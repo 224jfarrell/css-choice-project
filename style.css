@@ -110,7 +110,14 @@ body {
   padding-bottom: 100px;
   background: linear-gradient(to bottom, #292929 0%, #000 100%);
   color: white;
+  font-family: "Noto Sans", Arial, sans-serif;
   padding-left: 6.25%;
   width: 2664px;
   height: 7vh;
+}
+
+.loam {
+  text-decoration: none;
+  color: white;
+  font-family: "Noto Sans", Arial, sans-serif;
 }
