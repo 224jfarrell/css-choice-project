@@ -95,6 +95,10 @@ body {
   border: 2px solid black;
 }
 
+img {
+  width: 100%;
+}
+
 .background-fade {
   left: 0px;
   margin-top: 105px;
@@ -114,6 +118,12 @@ body {
   padding-left: 6.25%;
   width: 2664px;
   height: 7vh;
+}
+
+.nav {
+  text-decoration: none;
+  color: black;
+  font-family: "Noto Sans", Arial, sans-serif;
 }
 
 .loam {
