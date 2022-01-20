@@ -4,6 +4,8 @@ body {
   background-color: #d9d9d9;
   max-width: 100%;
   max-height: 100vh;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
 }
 
@@ -113,17 +115,20 @@ img {
   width: 2664px;
   height: 5vh;
   overflow: hidden;
+  display: block;
 }
 
 .footer {
   bottom: 0%;
+  left: 0px;
   padding-bottom: 100px;
   background: linear-gradient(to bottom, #292929 0%, #000 100%);
   color: white;
   font-family: "Noto Sans", Arial, sans-serif;
   padding-left: 6.25%;
-  width: 2664px;
+  width: 100%;
   height: 7vh;
+  display: block;
 }
 
 .nav {
