@@ -107,9 +107,28 @@ img {
   height: 100%;
 }
 
+.dropdown {
+  margin: 3vh 0 0 75vh;
+  background-color: #26B6A8;
+  width: 25%;
+  border: 2px solid black;
+  font-family: "Noto Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+.dropdown_content {
+  display: none;
+  font-family: "Noto Sans", Arial, sans-serif;
+}
+
+.dropdown:hover .dropdown_content {
+  display: block;
+  text-align: left;
+}
+
 .background-fade {
+  position: relative;
   left: 0px;
-  margin-top: 105px;
   vertical-align: bottom;
   background: linear-gradient(to bottom, #d9d9d9 0%, #d9d9d9 50%, #292929 100%);
   width: 2664px;
